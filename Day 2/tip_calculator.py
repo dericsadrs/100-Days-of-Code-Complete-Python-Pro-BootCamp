@@ -1,3 +1,8 @@
+#
+# Created on Wed May 31 2023
+# Created by Software Engineer Deric San Andres
+#
+
 print("Welcome to the Tip Calculator: ")
 bill = float(input("What was the total bill?: "))
 tip = int(input("How much tip would you like to give 10, 12, or 15?: "))

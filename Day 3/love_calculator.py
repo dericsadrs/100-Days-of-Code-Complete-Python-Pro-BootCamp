@@ -7,6 +7,11 @@ love_list = ["l", "o", "v", "e"]
 
 name1_true_count = 0
 name2_true_count = 0
+#
+# Created on Wed May 31 2023
+# Created by Software Engineer Deric San Andres
+#
+
 name1_love_count = 0
 name2_love_count = 0
 

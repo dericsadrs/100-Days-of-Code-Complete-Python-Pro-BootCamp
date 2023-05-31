@@ -1,3 +1,7 @@
+#
+# Created on Wed May 31 2023
+# Created by Software Engineer Deric San Andres
+#
 
 
 print("=== WELCOME TO BAND NAME GENERATOR === \n ......Cool Guitar Riff Plays in the Background")

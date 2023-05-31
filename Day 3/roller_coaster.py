@@ -1,6 +1,11 @@
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 
+#
+# Created on Wed May 31 2023
+# Created by Software Engineer Deric San Andres
+#
+
 if height > 120:
     print("You can ride the rollercoaster!")
     age = int(input("What is your age?: "))
