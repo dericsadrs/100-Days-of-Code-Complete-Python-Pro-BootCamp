@@ -3,4 +3,4 @@
 # Created by Software Engineer Deric San Andres
 #
 
-print(len(input("What is your name? ")))
+pi = 3.14159246

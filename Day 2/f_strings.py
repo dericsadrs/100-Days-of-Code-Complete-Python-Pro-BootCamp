@@ -1,3 +1,8 @@
+#
+# Created on Wed May 31 2023
+# Created by Software Engineer Deric San Andres
+#
+
 score = 0
 height = 1.8
 isWinning = True
