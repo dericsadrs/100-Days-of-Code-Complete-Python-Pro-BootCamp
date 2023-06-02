@@ -7,9 +7,9 @@
 import random
 
 
-random_side = random.choice(["Heads", "Tails"])
+random_side = random.randint(0,1)
 
-if random_side == "Heads":
+if random_side:
     print("Heads")
 else:
     print("Tails")
