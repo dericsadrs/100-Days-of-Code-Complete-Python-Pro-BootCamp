@@ -15,6 +15,7 @@ def find_highest_bidder(bidding_record):
   winner = ""
   # bidding_record = {"Angela": 123, "James": 321}
   for bidder in bidding_record:
+    print(f"for {bidding_record[bidder]} in bidding_record")
     bid_amount = bidding_record[bidder]
     if bid_amount > highest_bid: 
       highest_bid = bid_amount
@@ -30,6 +31,7 @@ while not bidding_finished:
     bidding_finished = True
     find_highest_bidder(bids)
   elif should_continue == "yes":
+    #continue
     clear()
   
 
