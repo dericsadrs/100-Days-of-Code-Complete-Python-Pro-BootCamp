@@ -99,8 +99,3 @@ while is_on:
 
 
 
-
-
-
-Files
-
