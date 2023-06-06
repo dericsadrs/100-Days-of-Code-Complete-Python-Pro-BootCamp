@@ -14,6 +14,7 @@ class MenuItem:
             "coffee": coffee
         }
 
+
 class Menu:
     """Models the Menu with drinks."""
     def __init__(self):
@@ -34,13 +35,5 @@ class Menu:
         """Searches the menu for a particular drink by name. Returns that item if it exists, otherwise returns None"""
         for item in self.menu:
             if item.name == order_name:
-                print(f"item name: {item.name} order name: {order_name}")
-                print(f"item{item}")
                 return item
         print("Sorry that item is not available.")
-
-    
-new_menu = Menu()
-items = new_menu.get_items()
-new_drink = new_menu.find_drink("cappuccino")
-print(new_drink.ingredients["water"])

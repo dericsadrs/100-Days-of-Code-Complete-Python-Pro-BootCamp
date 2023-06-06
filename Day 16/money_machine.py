@@ -2,6 +2,8 @@
 # Created on Tue Jun 06 2023
 # Created by Software Engineer Deric San Andres
 #
+
+
 class MoneyMachine:
 
     CURRENCY = "$"
@@ -43,5 +45,3 @@ class MoneyMachine:
             return False
         
 
-payment = MoneyMachine()
-process_payment = payment.make_payment(2.5)
