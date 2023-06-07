@@ -3,10 +3,13 @@
 # Created by Software Engineer Deric San Andres
 #
 
-from turtle import Turtle,Screen
+import turtle as t
 
+tim = t.Turtle()
 
-dashed_pen = Turtle()
-
-dashed_pen.pendown()
-dashed_pen.pd()
+########### Challenge 2 - Draw a Dashed Line ########
+for _ in range(15):
+    tim.forward(10)
+    tim.penup()
+    tim.forward(10)
+    tim.pendown()
