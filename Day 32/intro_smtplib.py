@@ -1,14 +1,20 @@
+
+#
+# Created on Sun Jun 25 2023
+# Created by Software Engineer Deric San Andres
+#
+
+
 import smtplib
 
-my_email = "example@gmail.com"
-password = "password"
+my_email = "darsanandres@gmail.com"
+password = "axauohgljmhhqqck"
 
-with smtplib.SMTP("smtp.gmail.com") as connection:
+
+address_sent_to = "drccsadrs@gmail.com"
+
+with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
     connection.starttls()
-    connection.login(user = my_email, password = password)
-    connection.sendmail(
-        from_addr=my_email,
-        to_addrs= "sendto@gmail.com",
-        msg="Subject: Hello\n\n This is the body of my email"
-
-    )
+    connection.login(user=my_email, password=password)
+    connection.sendmail(from_addr=my_email, to_addrs= address_sent_to, msg="Testing my python birthday wisher")
+    connection.close()
