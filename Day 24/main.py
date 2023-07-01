@@ -20,6 +20,11 @@ screen.onkey(snake.down, "Down")
 screen.onkey(snake.left, "Left")
 screen.onkey(snake.right, "Right")
 
+
+#
+# Created on Sat Jun 10 2023
+# Created by Software Engineer Deric San Andres
+#
 game_is_on = True
 while game_is_on:
     screen.update()
