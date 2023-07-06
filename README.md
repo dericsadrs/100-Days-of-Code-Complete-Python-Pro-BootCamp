@@ -1,7 +1,5 @@
 # 100-Days-of-Code-Complete-Python-Pro-by-Angela-Yu
 Master Python by building 100 projects in 100 days. Learn data science, automation, build websites, games and apps!
-<h1 align="center">100 Days of Code: The Complete Python Pro Bootcamp
-</h1>
 
 ## 😀 Beginner 
 - [Day 1:]() Working with Variables in Python to Manage Data
