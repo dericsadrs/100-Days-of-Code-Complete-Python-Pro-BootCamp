@@ -3,8 +3,6 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 <h1 align="center">100 Days of Code: The Complete Python Pro Bootcamp
 </h1>
 
-Most projects ideas come from the Udemy course: [100 Days of Code: The Complete Python Pro Bootcamp](https://www.udemy.com/course/100-days-of-code/)
-
 ## 😀 Beginner 
 - [Day 1:]() Working with Variables in Python to Manage Data
 - [Day 2:]() Understanding Data Types and How to Manipulate Strings
