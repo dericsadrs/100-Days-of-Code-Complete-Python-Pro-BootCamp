@@ -28,8 +28,8 @@ class DataManager:
             print(response.text)
             
             
-object = DataManager()
-destination = object.get_destination_data()
-updated_destination = object.update_destination_codes()
-# print(pandas.DataFrame(destination))
-print(updated_destination)
+# object = DataManager()
+# destination = object.get_destination_data()
+# updated_destination = object.update_destination_codes()
+# # print(pandas.DataFrame(destination))
+# print(updated_destination)

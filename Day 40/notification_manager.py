@@ -1,7 +1,6 @@
 from twilio.rest import Client
+import os
 
-TWILIO_SID = YOUR TWILIO ACCOUNT SID
-TWILIO_AUTH_TOKEN = YOUR TWILIO AUTH TOKEN
 TWILIO_VIRTUAL_NUMBER = YOUR TWILIO VIRTUAL NUMBER
 TWILIO_VERIFIED_NUMBER = YOUR TWILIO VERIFIED NUMBER
 
@@ -9,7 +8,7 @@ TWILIO_VERIFIED_NUMBER = YOUR TWILIO VERIFIED NUMBER
 class NotificationManager:
 
     def __init__(self):
-        self.client = Client(TWILIO_SID, TWILIO_AUTH_TOKEN)
+        self.client = Client(os.getenv("TWILIO_SID"), os.getenv("TWILIO_AUTH_TOKEN"))
 
     def send_sms(self, message):
         message = self.client.messages.create(
