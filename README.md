@@ -65,51 +65,51 @@ Master Python by building 100 projects in 100 days. Learn data science, automati
 - [Day 57:]() Templating with Jinja in Flask Applications
 - [Day 58:]() Web Foundation Boostrap
 
-## 😎 Advanced
-- [Day 59:]() Blog Capstone Project Part 2 - Adding Styling
-- [Day 60:]() Make POST Requests with Flask and HTML Forms
-- [Day 61:]() Building Advanced Forms with Flask-WTForms
-- [Day 62:]() Flask, WTForms, Bootstrap, and CSV - Coffee & Wifi Project
-- [Day 63:]() Databases and with SQLite and SQLAlchemy
-- [Day 64:]() My Top 10 Movies Website
-- [Day 65:]() How to Create a Website That People Will Love
-- [Day 66:]() Building Your Own API with RESTful Routing
-- [Day 67:]() Blog Capstone Project Part 3 - RESTful Routing
-- [Day 68:]() Authentication with Flask
-- [Day 69:]() Blog Capstone Project Part 4 - Adding Users
-- [Day 70:]() Deploying Your Web Application with Heroku
-- [Day 71:]() Data Exploration with Pandas: College Major vs. Your Salary
-- [Day 72:]() Data Visualisation with Matplotlib: Programming Languages
-- [Day 73:]() Aggregate & Marge Data with Pandas: Analyse the Lego Dataset
-- [Day 74:]() Google Trends Data: Resampling and Visualising Time Series
-- [Day 75:]() Beautiful Plotly Charts & Analysing the Android App Store
-- [Day 76:]() Computation with NumPy and N-Dimensional Arrays
-- [Day 77:]() Linear Regression and Data Visualisation with Seaborn
-- [Day 78:]() Analysing the Nobel Prize with Plotly, Matplotlib & Seaborn
-- [Day 79:]() The Tragic Discovery of Handwashing: t-Tests & Distributions
-- [Day 80:]() Capstone Project - Predict House Prices
+# ## 😎 Advanced
+# - [Day 59:]() Blog Capstone Project Part 2 - Adding Styling
+# - [Day 60:]() Make POST Requests with Flask and HTML Forms
+# - [Day 61:]() Building Advanced Forms with Flask-WTForms
+# - [Day 62:]() Flask, WTForms, Bootstrap, and CSV - Coffee & Wifi Project
+# - [Day 63:]() Databases and with SQLite and SQLAlchemy
+# - [Day 64:]() My Top 10 Movies Website
+# - [Day 65:]() How to Create a Website That People Will Love
+# - [Day 66:]() Building Your Own API with RESTful Routing
+# - [Day 67:]() Blog Capstone Project Part 3 - RESTful Routing
+# - [Day 68:]() Authentication with Flask
+# - [Day 69:]() Blog Capstone Project Part 4 - Adding Users
+# - [Day 70:]() Deploying Your Web Application with Heroku
+# - [Day 71:]() Data Exploration with Pandas: College Major vs. Your Salary
+# - [Day 72:]() Data Visualisation with Matplotlib: Programming Languages
+# - [Day 73:]() Aggregate & Marge Data with Pandas: Analyse the Lego Dataset
+# - [Day 74:]() Google Trends Data: Resampling and Visualising Time Series
+# - [Day 75:]() Beautiful Plotly Charts & Analysing the Android App Store
+# - [Day 76:]() Computation with NumPy and N-Dimensional Arrays
+# - [Day 77:]() Linear Regression and Data Visualisation with Seaborn
+# - [Day 78:]() Analysing the Nobel Prize with Plotly, Matplotlib & Seaborn
+# - [Day 79:]() The Tragic Discovery of Handwashing: t-Tests & Distributions
+# - [Day 80:]() Capstone Project - Predict House Prices
 
-## 🤖 Professional Portfolio Projects
-- [Day 81:]() Text to Morse Code Converter
-- [Day 82:]() Portfolio Website
-- [Day 83:]() Tic Tac Toe
-- [Day 84:]() Image Watermarking Desktop App
-- [Day 85:]() Typing Speed Test App
-- [Day 86:]() Breakout: The Famous Arcade Game
-- [Day 87:]() Cafe and Wifi Website
-- [Day 88:]() To Do Agenda App
-- [Day 89:]() Disappearing Text Writing App
-- [Day 90:]() Convert PDF to Audiobook
-- [Day 91:]() Image to Color List
-- [Day 92:]() Amazon Canada Web Scraper
-- [Day 93:]() Google Dinosaur Game Bot
-- [Day 94:]() Space Invaders
-- [Day 95:]() Custom API
-- [Day 96:]() An Online Shop
-- [Day 97:]() Percentage Calculator
-- [Day 98:]() Analyzing and Visualizing the Space Race
-- [Day 99:]() Analyzing Deaths Involving Police in the United States
-- [Day 100:](0) Predicting Earnings using Multivariable Regression
+# ## 🤖 Professional Portfolio Projects
+# - [Day 81:]() Text to Morse Code Converter
+# - [Day 82:]() Portfolio Website
+# - [Day 83:]() Tic Tac Toe
+# - [Day 84:]() Image Watermarking Desktop App
+# - [Day 85:]() Typing Speed Test App
+# - [Day 86:]() Breakout: The Famous Arcade Game
+# - [Day 87:]() Cafe and Wifi Website
+# - [Day 88:]() To Do Agenda App
+# - [Day 89:]() Disappearing Text Writing App
+# - [Day 90:]() Convert PDF to Audiobook
+# - [Day 91:]() Image to Color List
+# - [Day 92:]() Amazon Canada Web Scraper
+# - [Day 93:]() Google Dinosaur Game Bot
+# - [Day 94:]() Space Invaders
+# - [Day 95:]() Custom API
+# - [Day 96:]() An Online Shop
+# - [Day 97:]() Percentage Calculator
+# - [Day 98:]() Analyzing and Visualizing the Space Race
+# - [Day 99:]() Analyzing Deaths Involving Police in the United States
+# - [Day 100:](0) Predicting Earnings using Multivariable Regression
 
 ## ⚙ Tools and Technologies Covered
 - Python 3
