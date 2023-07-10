@@ -7,9 +7,12 @@ import pandas
 import smtplib
 import datetime as dt
 import random
+import os
+from dotenv import load_dotenv
 
-my_email = "darsanandres@gmail.com"
-password = "axauohgljmhhqqck"
+load_dotenv()
+my_email = os.getenv("MY_EMAIL")
+password = os.getenv("MY_PASSWORd")
 address_sent_to = "drccsadrs@gmail.com"
 
 now = dt.datetime.now()
