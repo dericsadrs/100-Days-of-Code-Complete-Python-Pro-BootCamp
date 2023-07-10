@@ -5,11 +5,14 @@
 
 from datetime import datetime
 import pandas
+import os
 import random
 import smtplib
+from dotenv import load_dotenv
 
-MY_EMAIL = "darsanandres@gmail.com"
-MY_PASSWORD = "axauohgljmhhqqck"
+load_dotenv()
+MY_EMAIL = os.getenv("MY_EMAIL")
+MY_PASSWORD = os.getenv("MY_PASSWORD")
 
 today = datetime.now()
 today_tuple = (today.month, today.day)
