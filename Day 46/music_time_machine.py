@@ -2,9 +2,11 @@ import requests,spotipy, os
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup
 from spotipy.oauth2 import SpotifyOAuth
-
+from dotenv import load_dotenv
 
 # Scraping Billboard 100
+
+load_dotenv()
 date = input("Which year do you want to travel to? Type the date in this format YYYY-MM-DD: ")
 response = requests.get("https://www.billboard.com/charts/hot-100/" + date)
 soup = BeautifulSoup(response.text, 'html.parser')
