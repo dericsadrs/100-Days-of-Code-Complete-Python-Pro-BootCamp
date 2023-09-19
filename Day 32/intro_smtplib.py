@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 load_dotenv()
 my_email = os.getenv("MY_EMAIL")
 password = os.getenv("MY_PASSWORD")
-address_sent_to = "drccsadrs@gmail.com"
+address_sent_to = "123@gmail.com"
 
 with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
     connection.starttls()
