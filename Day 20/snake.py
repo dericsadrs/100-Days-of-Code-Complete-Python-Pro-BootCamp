@@ -2,6 +2,7 @@
 # Created on Wed Jun 07 2023
 # Created by Software Engineer Deric San Andres
 #
+
 from turtle import Turtle
 STARTING_POSITIONS = [(0, 0), (-20, 0), (-40, 0)]
 MOVE_DISTANCE = 20
