@@ -7,9 +7,12 @@ from dotenv import load_dotenv
 
 SIMILAR_ACCOUNT="simga_men"
 
+
+#drive path
 CHROME_DRIVER_PATH = "C:\Development\chromedriver.exe"
 class InstaFollower:
-
+    
+    #constructor which has the parameter of path and the self
     def __init__(self, path):
         load_dotenv()
         self.driver = webdriver.Chrome(executable_path=path)
@@ -17,10 +20,14 @@ class InstaFollower:
     def login(self):
         self.driver.get("https://www.instagram.com/accounts/login/")
         time.sleep(5)
+        
 
+        # finds the html tags in the web
         username = self.driver.find_element(By.NAME,"username")
         password = self.driver.find_element(By.NAME,"password")
 
+
+        # get environment variables
         username.send_keys(os.getenv("USERNAME"))
         password.send_keys(os.getenv("PASSWORD"))
 
@@ -50,9 +57,14 @@ class InstaFollower:
             except ElementClickInterceptedException:
                 cancel_button = self.driver.find_element(By.XPATH,'/html/body/div[5]/div/div/div/div[3]/button[2]')
                 cancel_button.click()
+    def start_instagram_bot(self):
+        self.login()
+        self.find_followers()
+        self.follow()
+
+        
 
 
 bot = InstaFollower(CHROME_DRIVER_PATH)
-bot.login()
-bot.find_followers()
-bot.follow()
+bot.start_instagram_bot()
+
